@@ -21,25 +21,24 @@
 ## Install
 
 ```sh
-npm install
+npm install kaczkoland-wrapper --save
 ```
 
-## Run tests
+## Demo
 
-```sh
-npm run test
+```javascript
+	const API = require("kaczkoland-wrapper");
+	const user = await API.get("Aleksio1123");
+	const rank = user.primary_rank;
+	console.log(rank);
 ```
 
 ## Author
 
 👤 **Aleks1123**
 
-* Website: http://aleksio.cf
+* Website: http://aleks.ovh
 * Github: [@Aleks-1123](https://github.com/Aleks-1123)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Aleks-1123/kaczkoland-wrapper/issues). You can also take a look at the [contributing guide](https://github.com/Aleks-1123/kaczkoland-wrapper/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 

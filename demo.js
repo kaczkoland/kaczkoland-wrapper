@@ -4,5 +4,4 @@ async function demo() {
 	const rank = user.primary_rank;
 	console.log(rank);
 }
-
 demo()

@@ -1,6 +1,6 @@
 {
 	"name": "kaczkoland-wrapper",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A kaczkoland.pl minecraft server API wrapper",
 	"main": "index.js",
 	"dependencies": {
