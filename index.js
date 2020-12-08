@@ -4,5 +4,5 @@ let methods = {
 
 module.exports = {
 	get: methods.get,
-	version: "1.0.1"
+	version: require("./package.json").version
 }

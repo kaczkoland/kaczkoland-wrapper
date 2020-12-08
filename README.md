@@ -27,10 +27,14 @@ npm install kaczkoland-wrapper --save
 ## Demo
 
 ```javascript
-	const API = require("kaczkoland-wrapper");
-	const user = await API.get("Aleksio1123");
-	const rank = user.primary_rank;
-	console.log(rank);
+/* Creating a API variable */
+const API = require("kaczkoland-wrapper");
+/* Getting a user from username */
+const user = await API.get("Aleksio1123");
+/* Getting a user rank */
+const rank = user.primary_rank;
+/* Output */
+console.log(rank);
 ```
 
 ## Author
