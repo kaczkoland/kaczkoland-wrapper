@@ -8,6 +8,7 @@ module.exports = async (user) => {
 		try {
 			let req = await fetch("https://api.kaczkoland.pl/all").then(r => r.json());
 			let val = req.find(u => u.username == user);
+			if (!val) resolve ({ code:  404, message: "Not found" })
 			resolve(val);
 		} catch (err) {
 			reject(err);
