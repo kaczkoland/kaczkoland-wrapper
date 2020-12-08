@@ -12,8 +12,5 @@ module.exports = async (user) => {
 		} catch (err) {
 			reject(err);
 		}
-
 	})
-
-
 }
